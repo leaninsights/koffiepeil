@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0BF2CD71E8315D000B46CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CD61E8315D000B46CA0 /* AppDelegate.swift */; };
+		F0BF2CD91E8315D000B46CA0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CD81E8315D000B46CA0 /* RootViewController.swift */; };
+		F0BF2CDB1E8315D000B46CA0 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CDA1E8315D000B46CA0 /* DataViewController.swift */; };
+		F0BF2CDD1E8315D000B46CA0 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CDC1E8315D000B46CA0 /* ModelController.swift */; };
+		F0BF2CE01E8315D000B46CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BF2CDE1E8315D000B46CA0 /* Main.storyboard */; };
+		F0BF2CE21E8315D000B46CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BF2CE11E8315D000B46CA0 /* Assets.xcassets */; };
+		F0BF2CE51E8315D000B46CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BF2CE31E8315D000B46CA0 /* LaunchScreen.storyboard */; };
+		F0BF2CF01E8315D000B46CA0 /* koffiepeilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CEF1E8315D000B46CA0 /* koffiepeilTests.swift */; };
+		F0BF2CFB1E8315D000B46CA0 /* koffiepeilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF2CFA1E8315D000B46CA0 /* koffiepeilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0BF2CEC1E8315D000B46CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BF2CCB1E8315CF00B46CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BF2CD21E8315CF00B46CA0;
+			remoteInfo = koffiepeil;
+		};
+		F0BF2CF71E8315D000B46CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BF2CCB1E8315CF00B46CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BF2CD21E8315CF00B46CA0;
+			remoteInfo = koffiepeil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0BF2CD31E8315D000B46CA0 /* koffiepeil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koffiepeil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BF2CD61E8315D000B46CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0BF2CD81E8315D000B46CA0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F0BF2CDA1E8315D000B46CA0 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F0BF2CDC1E8315D000B46CA0 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F0BF2CDF1E8315D000B46CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0BF2CE11E8315D000B46CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0BF2CE41E8315D000B46CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0BF2CE61E8315D000B46CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BF2CEB1E8315D000B46CA0 /* koffiepeilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koffiepeilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BF2CEF1E8315D000B46CA0 /* koffiepeilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koffiepeilTests.swift; sourceTree = "<group>"; };
+		F0BF2CF11E8315D000B46CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BF2CF61E8315D000B46CA0 /* koffiepeilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koffiepeilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BF2CFA1E8315D000B46CA0 /* koffiepeilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koffiepeilUITests.swift; sourceTree = "<group>"; };
+		F0BF2CFC1E8315D000B46CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BF2CD01E8315CF00B46CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CE81E8315D000B46CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CF31E8315D000B46CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0BF2CCA1E8315CF00B46CA0 = {
+			isa = PBXGroup;
+			children = (
+				F0BF2CD51E8315D000B46CA0 /* koffiepeil */,
+				F0BF2CEE1E8315D000B46CA0 /* koffiepeilTests */,
+				F0BF2CF91E8315D000B46CA0 /* koffiepeilUITests */,
+				F0BF2CD41E8315D000B46CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0BF2CD41E8315D000B46CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF2CD31E8315D000B46CA0 /* koffiepeil.app */,
+				F0BF2CEB1E8315D000B46CA0 /* koffiepeilTests.xctest */,
+				F0BF2CF61E8315D000B46CA0 /* koffiepeilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0BF2CD51E8315D000B46CA0 /* koffiepeil */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF2CD61E8315D000B46CA0 /* AppDelegate.swift */,
+				F0BF2CD81E8315D000B46CA0 /* RootViewController.swift */,
+				F0BF2CDA1E8315D000B46CA0 /* DataViewController.swift */,
+				F0BF2CDC1E8315D000B46CA0 /* ModelController.swift */,
+				F0BF2CDE1E8315D000B46CA0 /* Main.storyboard */,
+				F0BF2CE11E8315D000B46CA0 /* Assets.xcassets */,
+				F0BF2CE31E8315D000B46CA0 /* LaunchScreen.storyboard */,
+				F0BF2CE61E8315D000B46CA0 /* Info.plist */,
+			);
+			path = koffiepeil;
+			sourceTree = "<group>";
+		};
+		F0BF2CEE1E8315D000B46CA0 /* koffiepeilTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF2CEF1E8315D000B46CA0 /* koffiepeilTests.swift */,
+				F0BF2CF11E8315D000B46CA0 /* Info.plist */,
+			);
+			path = koffiepeilTests;
+			sourceTree = "<group>";
+		};
+		F0BF2CF91E8315D000B46CA0 /* koffiepeilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF2CFA1E8315D000B46CA0 /* koffiepeilUITests.swift */,
+				F0BF2CFC1E8315D000B46CA0 /* Info.plist */,
+			);
+			path = koffiepeilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0BF2CD21E8315CF00B46CA0 /* koffiepeil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BF2CFF1E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeil" */;
+			buildPhases = (
+				F0BF2CCF1E8315CF00B46CA0 /* Sources */,
+				F0BF2CD01E8315CF00B46CA0 /* Frameworks */,
+				F0BF2CD11E8315CF00B46CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = koffiepeil;
+			productName = koffiepeil;
+			productReference = F0BF2CD31E8315D000B46CA0 /* koffiepeil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0BF2CEA1E8315D000B46CA0 /* koffiepeilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BF2D021E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeilTests" */;
+			buildPhases = (
+				F0BF2CE71E8315D000B46CA0 /* Sources */,
+				F0BF2CE81E8315D000B46CA0 /* Frameworks */,
+				F0BF2CE91E8315D000B46CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BF2CED1E8315D000B46CA0 /* PBXTargetDependency */,
+			);
+			name = koffiepeilTests;
+			productName = koffiepeilTests;
+			productReference = F0BF2CEB1E8315D000B46CA0 /* koffiepeilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0BF2CF51E8315D000B46CA0 /* koffiepeilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BF2D051E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeilUITests" */;
+			buildPhases = (
+				F0BF2CF21E8315D000B46CA0 /* Sources */,
+				F0BF2CF31E8315D000B46CA0 /* Frameworks */,
+				F0BF2CF41E8315D000B46CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BF2CF81E8315D000B46CA0 /* PBXTargetDependency */,
+			);
+			name = koffiepeilUITests;
+			productName = koffiepeilUITests;
+			productReference = F0BF2CF61E8315D000B46CA0 /* koffiepeilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0BF2CCB1E8315CF00B46CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matthew Niederberger";
+				TargetAttributes = {
+					F0BF2CD21E8315CF00B46CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F0BF2CEA1E8315D000B46CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0BF2CD21E8315CF00B46CA0;
+					};
+					F0BF2CF51E8315D000B46CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0BF2CD21E8315CF00B46CA0;
+					};
+				};
+			};
+			buildConfigurationList = F0BF2CCE1E8315CF00B46CA0 /* Build configuration list for PBXProject "koffiepeil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0BF2CCA1E8315CF00B46CA0;
+			productRefGroup = F0BF2CD41E8315D000B46CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BF2CD21E8315CF00B46CA0 /* koffiepeil */,
+				F0BF2CEA1E8315D000B46CA0 /* koffiepeilTests */,
+				F0BF2CF51E8315D000B46CA0 /* koffiepeilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0BF2CD11E8315CF00B46CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BF2CE51E8315D000B46CA0 /* LaunchScreen.storyboard in Resources */,
+				F0BF2CE21E8315D000B46CA0 /* Assets.xcassets in Resources */,
+				F0BF2CE01E8315D000B46CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CE91E8315D000B46CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CF41E8315D000B46CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BF2CCF1E8315CF00B46CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BF2CD91E8315D000B46CA0 /* RootViewController.swift in Sources */,
+				F0BF2CDD1E8315D000B46CA0 /* ModelController.swift in Sources */,
+				F0BF2CDB1E8315D000B46CA0 /* DataViewController.swift in Sources */,
+				F0BF2CD71E8315D000B46CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CE71E8315D000B46CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BF2CF01E8315D000B46CA0 /* koffiepeilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BF2CF21E8315D000B46CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BF2CFB1E8315D000B46CA0 /* koffiepeilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0BF2CED1E8315D000B46CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BF2CD21E8315CF00B46CA0 /* koffiepeil */;
+			targetProxy = F0BF2CEC1E8315D000B46CA0 /* PBXContainerItemProxy */;
+		};
+		F0BF2CF81E8315D000B46CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BF2CD21E8315CF00B46CA0 /* koffiepeil */;
+			targetProxy = F0BF2CF71E8315D000B46CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0BF2CDE1E8315D000B46CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BF2CDF1E8315D000B46CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0BF2CE31E8315D000B46CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BF2CE41E8315D000B46CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0BF2CFD1E8315D000B46CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0BF2CFE1E8315D000B46CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0BF2D001E8315D000B46CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = koffiepeil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F0BF2D011E8315D000B46CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = koffiepeil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F0BF2D031E8315D000B46CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = koffiepeilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koffiepeil.app/koffiepeil";
+			};
+			name = Debug;
+		};
+		F0BF2D041E8315D000B46CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = koffiepeilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koffiepeil.app/koffiepeil";
+			};
+			name = Release;
+		};
+		F0BF2D061E8315D000B46CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = koffiepeilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = koffiepeil;
+			};
+			name = Debug;
+		};
+		F0BF2D071E8315D000B46CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = koffiepeilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = koffiepeil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0BF2CCE1E8315CF00B46CA0 /* Build configuration list for PBXProject "koffiepeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BF2CFD1E8315D000B46CA0 /* Debug */,
+				F0BF2CFE1E8315D000B46CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BF2CFF1E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BF2D001E8315D000B46CA0 /* Debug */,
+				F0BF2D011E8315D000B46CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BF2D021E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BF2D031E8315D000B46CA0 /* Debug */,
+				F0BF2D041E8315D000B46CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BF2D051E8315D000B46CA0 /* Build configuration list for PBXNativeTarget "koffiepeilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BF2D061E8315D000B46CA0 /* Debug */,
+				F0BF2D071E8315D000B46CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0BF2CCB1E8315CF00B46CA0 /* Project object */;
+}
