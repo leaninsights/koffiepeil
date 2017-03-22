@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					F0BF2CD21E8315CF00B46CA0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9VB26K25XZ;
 						ProvisioningStyle = Automatic;
 					};
 					F0BF2CEA1E8315D000B46CA0 = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VB26K25XZ;
 				INFOPLIST_FILE = koffiepeil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeil;
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VB26K25XZ;
 				INFOPLIST_FILE = koffiepeil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leaninsights.koffiepeil;
