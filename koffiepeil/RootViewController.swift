@@ -39,10 +39,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController!.didMove(toParentViewController: self)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
     var modelController: ModelController {
         // Return the model controller object, creating it if necessary.
